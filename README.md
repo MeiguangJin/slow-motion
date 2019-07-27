@@ -14,7 +14,7 @@ year = {2019}
 This code has been tested with Python 3.7 and Pytorch 1.1.0. 
 
 ## **Test**
-Unzip a real test video and Download the pretrained model (cvpr19_model.pth) from [google drive](https://drive.google.com/open?id=1gfhHKpJEYKrqx2wJ4GL9owGB4J7E7UD-). This script will generate a 10x slow motion video.
+Unzip a real test video and download the pretrained model (cvpr19_model.pth) from [google drive](https://drive.google.com/open?id=1gfhHKpJEYKrqx2wJ4GL9owGB4J7E7UD-). This script will generate a 10x slow motion video.
 ```
 unzip test_video_01.zip
 python test_demo.py --cuda --model cvpr19_model.pth --input test_video_01 --out result
