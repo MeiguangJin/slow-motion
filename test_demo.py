@@ -45,7 +45,7 @@ input_transform = transforms.Compose([
     transforms.ToTensor(),
 ])
 with torch.no_grad():
-    for ii in range(1, 61):
+    for ii in range(1, len(os.listdir(args.input))-3):
         count = count + 1
 
         input01 = utils.load_image('%s/%03d.png' % (args.input,ii-1) )
